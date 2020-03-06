@@ -1,0 +1,9 @@
+- name: Remove Config
+  vars:
+    lines: 'delete protocols static route
+
+      delete protocols static route6
+
+      '
+  ansible.netcommon.cli_config:
+    config: '{{ lines }}'

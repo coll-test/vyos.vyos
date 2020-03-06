@@ -1,0 +1,13 @@
+- name: Remove Config
+  vars:
+    lines: 'delete firewall name INBOUND
+
+      delete firewall name OUTBOUND
+
+      delete firewall name LOCAL
+
+      delete firewall ipv6-name V6-LOCAL
+
+      '
+  ansible.netcommon.cli_config:
+    config: '{{ lines }}'

@@ -1,0 +1,15 @@
+namespace: vyos
+name: vyos
+version: 0.1.0
+readme: README.md
+authors: null
+description: null
+license: GPL-3.0-or-later
+license_file: COPYING
+tags: null
+dependencies:
+  ansible.netcommon: '>=0.1.0'
+repository: git@github.com:coll-test/vyos.vyos.git
+documentation: https://github.com/coll-test/vyos.vyos/tree/master/docs
+homepage: https://github.com/coll-test/vyos.vyos
+issues: https://github.com/coll-test/vyos.vyos/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc

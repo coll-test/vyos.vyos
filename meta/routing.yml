@@ -1,0 +1,59 @@
+plugin_routing:
+  integration:
+    parsed_config:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    populate:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    remove_config:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    populate_rule_sets:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    remove_firewall_config:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    add_bond:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    remove_bond:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    populate_intf:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+  modules:
+    vyos_interface:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    vyos_l3_interface:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    vyos_linkagg:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    vyos_lldp:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    vyos_lldp_interface:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details
+    vyos_static_route:
+      deprecation:
+        removal_date: TBD
+        warning_text: see plugin documentation for details

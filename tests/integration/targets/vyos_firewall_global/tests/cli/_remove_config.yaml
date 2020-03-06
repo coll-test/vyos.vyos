@@ -1,0 +1,7 @@
+- name: Remove Config
+  vars:
+    lines: 'delete firewall
+
+      '
+  ansible.netcommon.cli_config:
+    config: '{{ lines }}'
